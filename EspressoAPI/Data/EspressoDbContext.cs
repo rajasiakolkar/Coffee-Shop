@@ -6,7 +6,7 @@ namespace EspressoAPI.Data
 {
     public class EspressoDbContext : DbContext
     {
-        public EspressoDbContext()
+        public EspressoDbContext(DbContextOptions<EspressoDbContext>options):base(options)
         {
         }
 
