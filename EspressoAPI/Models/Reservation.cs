@@ -26,10 +26,10 @@ namespace EspressoAPI.Models
         public int totalPeople { get; set; }
 
         [Required]
-        public DateTime Date { get; set; }
+        public string Date { get; set; }
 
         [Required]
-        [DataType(DataType.DateTime)]
+        //[DataType(DataType.DateTime)]
         public string Time { get; set; }
 
     }
